@@ -21,15 +21,12 @@ public class EmployeeCreationRequest {
 	private String emailId;
 	
 	@Size(max = 2)
-	@Column(name = "age", length = 2)
 	private String age;
 	
 	@Size(max = 10)
-	@Column(name = "gender", length = 10)
 	private String gender;
 	
 	@Size(max = 100)
-	@Column(name = "address", length = 100)
 	private String address;
 
 	public String getFirstName() {

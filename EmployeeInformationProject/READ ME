@@ -1,0 +1,6 @@
+This project includes creation, updation of all attributes, find all records that are not deleted, find all records that are deleted, 
+find a particular record by id, and it performs soft delete on the EmployeeInfo table
+
+Before running the project create postgresql database using following syntax:
+  CREATE DATABASE EmployeeDB;
+  

@@ -1,0 +1,47 @@
+1. To create/insert employee data
+Request Method :POST
+URL: http://localhost:8081/api/create
+RequestBody : (JSON)
+{
+    "firstName":"nivetha",
+    "lastName":"mohan",
+    "emailId":"nivetha@gmail.com",
+    "age":"27",
+    "gender":"female",
+    "address":"23sva anada bangalore"
+}
+2. To update existing employee data
+Request Method: POST
+URL:http://localhost:8081/api/update
+RequestBody : (JSON)
+{
+    "id":1,
+    "firstName":"prachi",
+    "lastName":"priya prasad",
+    "emailId":"prachi@gmail.com",
+    "age":"22",
+    "gender":"female",
+    "address":"23sva anada  nilayabangalore"
+}
+3. To find all records that are not deleted
+Request Method : GET
+URL: http://localhost:8081/api/findAll
+4. To find only deleted records 
+Request Method: GET
+URL: http://localhost:8081/api/findAllDeletedRecords
+5. To find particular record based on id
+Request Method: POST
+URL:http://localhost:8081/api/findById
+Request Body :(JSON)
+{
+"id":1
+}
+6.To delete a particular record by Id
+Request Method: POST
+URL : http://localhost:8081/api/deleteById
+Request Body :(JSON)
+{
+"id":1
+}
+
+

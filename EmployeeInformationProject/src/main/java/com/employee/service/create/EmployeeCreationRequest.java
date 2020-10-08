@@ -9,11 +9,9 @@ import javax.validation.constraints.Size;
 public class EmployeeCreationRequest {
 	
 	@Size(max = 50)
-	@Column(name = "first_name", length = 50)
 	private String firstName;
 
 	@Size(max = 50)
-	@Column(name = "last_name", length = 50)
 	private String lastName;
 	
 	@NotNull(message = "email id can't be null")

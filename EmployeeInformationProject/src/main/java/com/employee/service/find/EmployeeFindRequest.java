@@ -6,9 +6,8 @@ import javax.validation.constraints.NotNull;
 
 public class EmployeeFindRequest {
 	
-	@NotNull(message = "email id can't be null")
-	@NotEmpty(message = "email id can't be empty")
-	@Column(name = "id")
+
+	
 	private Long id;
 
 	public Long getId() {
